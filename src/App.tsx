@@ -151,9 +151,6 @@ const AstronautCharacter = ({ gender, hasSpectacles = false }: { gender: 'girl' 
     {/* Hair for Boy */}
     {gender === 'boy' && (
       <path d="M15 45 Q15 15 50 15 Q85 15 85 45" fill="#4b2c20" />
-      <circle cx="20" cy="40" r="10" fill="#4b2c20" />
-      <circle cx="80" cy="40" r="10" fill="#4b2c20" />
-      </>
     )}
 
     {/* Eyes */}
