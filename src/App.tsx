@@ -186,14 +186,14 @@ const CosmicCapsule = ({ className }: { className?: string }) => (
       {/* Ship Bottom Glow */}
       <defs>
         <radialGradient id="engineGlow" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="#00008b" stopOpacity="0.6" />
-          <stop offset="100%" stopColor="#00008b" stopOpacity="0" />
+          <stop offset="0%" stopColor="#1e90ff" stopOpacity="0.6" />
+          <stop offset="100%" stopColor="#1e90ff" stopOpacity="0" />
         </radialGradient>
       </defs>
       <ellipse cx="100" cy="115" rx="50" ry="15" fill="url(#engineGlow)" />
 
       {/* Main Saucer Body */}
-      <path d="M10 80 Q10 50 100 50 Q190 50 190 80 L170 110 Q100 125 30 110 Z" fill="#ff5722" stroke="#bf360c" strokeWidth="2" />
+      <path d="M10 80 Q10 50 100 50 Q190 50 190 80 L170 110 Q100 125 30 110 Z" fill="#00008b" stroke="#010151" strokeWidth="2" />
       
       {/* Saucer Lights */}
       <circle cx="35" cy="85" r="6" fill="#fff" opacity="0.9" />
