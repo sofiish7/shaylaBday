@@ -129,7 +129,7 @@ const ProgressHUD = ({ page }: { page: Page }) => {
       </div>
       <div className="hud-border p-3 flex items-center gap-3">
         <div className="w-2 h-2 rounded-full bg-red-500 animate-pulse"></div>
-        <span className="text-[10px] text-slate-300 font-mono tracking-tighter uppercase">HAPPINESS_METER: 99.9%</span>
+        <span className="text-[10px] text-slate-300 font-mono tracking-tighter uppercase">HAPPINESS_METER: 99.9999%</span>
       </div>
     </div>
   );
@@ -150,7 +150,8 @@ const AstronautCharacter = ({ gender, hasSpectacles = false }: { gender: 'girl' 
     )}
     {/* Hair for Boy */}
     {gender === 'boy' && (
-      <path d="M15 45 Q15 15 50 15 Q85 15 85 45" fill="#3d2b1f" />
+      <path d="M15 45 Q15 15 50 15 Q85 15 85 45" fill="#4b2c20" />
+      <circle cx="20" cy="40" r="10" fill="#4b2c20" />
     )}
 
     {/* Eyes */}
@@ -186,8 +187,8 @@ const CosmicCapsule = ({ className }: { className?: string }) => (
       {/* Ship Bottom Glow */}
       <defs>
         <radialGradient id="engineGlow" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="#ff4500" stopOpacity="0.6" />
-          <stop offset="100%" stopColor="#ff4500" stopOpacity="0" />
+          <stop offset="0%" stopColor="#00008b" stopOpacity="0.6" />
+          <stop offset="100%" stopColor="#00008b" stopOpacity="0" />
         </radialGradient>
       </defs>
       <ellipse cx="100" cy="115" rx="50" ry="15" fill="url(#engineGlow)" />
@@ -423,7 +424,7 @@ export default function App() {
               className="space-y-4"
             >
               <h1 className="text-3xl md:text-5xl font-serif italic text-white/90">
-                Here is a little surprise for you
+                Heyy My Shaylaa 🥰🥰, I have a little surprise for you
               </h1>
               <p className="text-xs uppercase tracking-[0.5em] text-nebula-indigo font-sans">
                 Initiating Cosmic Voyage
