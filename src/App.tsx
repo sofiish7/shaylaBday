@@ -152,6 +152,8 @@ const AstronautCharacter = ({ gender, hasSpectacles = false }: { gender: 'girl' 
     {gender === 'boy' && (
       <path d="M15 45 Q15 15 50 15 Q85 15 85 45" fill="#4b2c20" />
       <circle cx="20" cy="40" r="10" fill="#4b2c20" />
+      <circle cx="80" cy="40" r="10" fill="#4b2c20" />
+      </>
     )}
 
     {/* Eyes */}
@@ -535,7 +537,7 @@ export default function App() {
                   >
                     <div className="flex items-center gap-2">
                        <PartyPopper className="w-4 h-4" />
-                       DECORATE_SYSTEM
+                       Decorate
                     </div>
                   </motion.button>
                   
@@ -783,7 +785,7 @@ export default function App() {
               <div className="space-y-8 text-lg md:text-xl font-sans text-white/80 leading-relaxed">
                 <p>
                   As you celebrate another journey around the sun, I wanted to create something as vast and beautiful as the soul I see in you. 
-                  The stars above have watched over humanity for eons, but none of them shine quite as brightly as you do in my world.
+                  The stars above have watched over humanity for centuries, but none of them shine quite as brightly as you do in my world.
                 </p>
                 <div className="flex justify-center py-4">
                   <Heart className="text-pink-500 w-12 h-12 fill-current animate-pulse" />
