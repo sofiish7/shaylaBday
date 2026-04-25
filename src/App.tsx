@@ -683,7 +683,7 @@ export default function App() {
                 { type: 'star', text: 'You are my bestie and my favourite online person ⋆✴︎˚｡⋆' },
                 { type: 'heart', text: 'You make me laugh :-P' },
                 { type: 'star', text: 'I love hanging out with you♡' },
-                { type: 'heart', text: 'Because you exist --you don't need a reason to matter to me' },
+                { type: 'heart', text: 'Because you exist- you matter because you exist♡' },
                 { type: 'star', text: 'I feel safe and comfortable with you❤︎' },
                 { type: 'heart', text: 'You handle my mood swings, rants, anger, drama, cringe :-P' },
               ].map((item, i) => (
