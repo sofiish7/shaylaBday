@@ -671,9 +671,9 @@ export default function App() {
               {/* Central Galaxy Star */}
               {[
                 { text: '7 Reasons Why You are My Bestie❤︎' },
-          ].map((item, i) => ( 
+          ]. ( 
                 <ComplimentBubble text={item.text} />
-               ))}
+               )}
               <motion.div
                 animate={{ scale: [1, 1.1, 1], rotate: 360 }}
                 transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
@@ -692,7 +692,7 @@ export default function App() {
                 { type: 'star', text: 'I feel safe and comfortable with you❤︎' },
                 { type: 'heart', text: 'You have survived my mood swings, rants, anger, drama, cringe :-P' },
               ].map((item, i) => (
-                <OrbitItem key={i} index={i} total={6} radius={window.innerWidth < 768 ? 130 : 220} delay={i * 0.5}>
+                <OrbitItem key={i} index={i} total={7} radius={window.innerWidth < 768 ? 130 : 220} delay={i * 0.5}>
                   <ComplimentBubble type={item.type as 'heart' | 'star'} text={item.text} />
                 </OrbitItem>
               ))}
