@@ -664,15 +664,11 @@ export default function App() {
               animate={{ y: 0, opacity: 1 }}
               className="text-2xl md:text-3xl font-light tracking-widest text-center mb-12 max-w-2xl uppercase text-slate-100"
             >
-              "You are the most precious in the whole Universe"
+              "Here are 7 Reasons Why You are The Most Precious in The Whole Universe❤︎"
             </motion.h2>
 
             <div className="relative w-[300px] h-[300px] md:w-[500px] md:h-[500px] flex items-center justify-center">
               {/* Central Galaxy Star */}
-              {[
-                { text: '7 Reasons Why You are My Bestie❤︎' },
-          ]
-               }
               <motion.div
                 animate={{ scale: [1, 1.1, 1], rotate: 360 }}
                 transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
@@ -683,13 +679,13 @@ export default function App() {
 
               {/* Orbiting Items */}
               {[
-                { type: 'heart', text: 'You are cute, cool, respectful❤︎⁠' },
-                { type: 'star', text: 'You need a bestie like me to add sparkles to your boring life ⋆✴︎˚｡⋆' },
+                { type: 'heart', text: 'You are sooo cute, cool, respectful❤︎⁠' },
+                { type: 'star', text: 'You are my bestie and my favourite online person ⋆✴︎˚｡⋆' },
                 { type: 'heart', text: 'You make me laugh :-P' },
                 { type: 'star', text: 'I love hanging out with you♡' },
-                { type: 'heart', text: 'I chose you as my slave♡' },
+                { type: 'heart', text: 'Because you exist (you don't need a reason to matter to me)' },
                 { type: 'star', text: 'I feel safe and comfortable with you❤︎' },
-                { type: 'heart', text: 'You have survived my mood swings, rants, anger, drama, cringe :-P' },
+                { type: 'heart', text: 'You handle my mood swings, rants, anger, drama, cringe :-P' },
               ].map((item, i) => (
                 <OrbitItem key={i} index={i} total={7} radius={window.innerWidth < 768 ? 130 : 220} delay={i * 0.5}>
                   <ComplimentBubble type={item.type as 'heart' | 'star'} text={item.text} />
