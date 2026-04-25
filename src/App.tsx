@@ -670,8 +670,10 @@ export default function App() {
             <div className="relative w-[300px] h-[300px] md:w-[500px] md:h-[500px] flex items-center justify-center">
               {/* Central Galaxy Star */}
               {[
-                { text: '7 Reasons Why You are My Bestie❤︎' }, <text={item.text} />
-               ]}
+                { text: '7 Reasons Why You are My Bestie❤︎' },
+          ].map((item, i) => ( 
+                <ComplimentBubble text={item.text} />
+               )}
               <motion.div
                 animate={{ scale: [1, 1.1, 1], rotate: 360 }}
                 transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
