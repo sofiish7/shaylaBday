@@ -423,10 +423,10 @@ export default function App() {
               className="space-y-4"
             >
               <h1 className="text-3xl md:text-5xl font-serif italic text-white/90">
-                Heyy My Shaylaa 🥰🥰, I have a little surprise for you
+                Heyy My Shaylaa 🥰🥰
               </h1>
               <p className="text-xs uppercase tracking-[0.5em] text-nebula-indigo font-sans">
-                Initiating Cosmic Voyage
+                I have a little surprise for you
               </p>
             </motion.div>
 
@@ -465,7 +465,7 @@ export default function App() {
               className="mt-12 space-y-4"
             >
               <Rocket className="w-8 h-8 text-indigo-400 mx-auto animate-bounce" />
-              <p className="text-xl font-mono tracking-widest text-indigo-300 uppercase">Warp Drive Active...</p>
+              <p className="text-xl font-mono tracking-widest text-indigo-300 uppercase">Let'sss Gooooo...</p>
             </motion.div>
           </motion.div>
         )}
@@ -493,7 +493,7 @@ export default function App() {
                 </div>
                 <div className="mt-8 text-white/40 flex items-center gap-2 animate-pulse">
                   <Star className="w-4 h-4 fill-current" />
-                  <span>Indian Standard Time Sync</span>
+                  <span>To your Day</span>
                   <Star className="w-4 h-4 fill-current" />
                 </div>
               </>
@@ -522,7 +522,7 @@ export default function App() {
                 
                 <div className="space-y-4">
                   <h1 className="text-5xl md:text-7xl font-serif italic text-star-gold drop-shadow-lg">Happiest Birthday Shohaib</h1>
-                  <p className="text-xl md:text-2xl text-white/60">May your journey through life be as vast and beautiful as the cosmos.</p>
+                  <p className="text-xl md:text-2xl text-white/60">May your day, month, year, your life be full of happiness, peace, success and all the best of the best positive things and you love and enjoy every part of it. Ameen♡.</p>
                 </div>
 
                 <div className="flex flex-col items-center gap-4">
@@ -545,7 +545,7 @@ export default function App() {
                       onClick={() => setCurrentPage('game')}
                       className="px-12 py-4 bg-nebula-indigo text-white rounded-full font-bold text-sm uppercase tracking-[0.3em] flex items-center gap-3 shadow-[0_0_30px_rgba(99,102,241,0.5)]"
                     >
-                      Init Celebration Sequence
+                      Let's Celebrate
                       <ArrowRight className="w-4 h-4" />
                     </motion.button>
                   )}
@@ -634,7 +634,7 @@ export default function App() {
                   animate={{ opacity: 1 }} 
                   className="absolute inset-0 bg-space-black/80 flex items-center justify-center flex-col gap-6"
                  >
-                    <h3 className="text-4xl font-serif text-star-gold">Star Master!</h3>
+                    <h3 className="text-4xl font-serif text-star-gold">You da real star!</h3>
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
@@ -669,6 +669,9 @@ export default function App() {
 
             <div className="relative w-[300px] h-[300px] md:w-[500px] md:h-[500px] flex items-center justify-center">
               {/* Central Galaxy Star */}
+              {[
+                { text: '7 Reasons Why You are My Bestie❤︎' }, <text={item.text} />
+               ]}
               <motion.div
                 animate={{ scale: [1, 1.1, 1], rotate: 360 }}
                 transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
@@ -679,12 +682,13 @@ export default function App() {
 
               {/* Orbiting Items */}
               {[
-                { type: 'heart', text: 'Purest Soul ✨' },
-                { type: 'star', text: 'Your smile lights up my world' },
-                { type: 'heart', text: 'Endless Kindness' },
-                { type: 'star', text: 'A True Star' },
-                { type: 'heart', text: 'My Whole Universe 🌌' },
-                { type: 'star', text: 'Brilliant Mind 🧠' },
+                { type: 'heart', text: 'You are cute, cool, respectful❤︎⁠' },
+                { type: 'star', text: 'You need a bestie like me to add sparkles to your boring life ⋆✴︎˚｡⋆' },
+                { type: 'heart', text: 'You make me laugh :-P' },
+                { type: 'star', text: 'I love hanging out with you♡' },
+                { type: 'heart', text: 'I chose you as my slave♡' },
+                { type: 'star', text: 'I feel safe and comfortable with you❤︎' },
+                { type: 'heart', text: 'You have survived my mood swings, rants, anger, drama, cringe :-P' },
               ].map((item, i) => (
                 <OrbitItem key={i} index={i} total={6} radius={window.innerWidth < 768 ? 130 : 220} delay={i * 0.5}>
                   <ComplimentBubble type={item.type as 'heart' | 'star'} text={item.text} />
