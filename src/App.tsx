@@ -671,8 +671,7 @@ export default function App() {
               {/* Central Galaxy Star */}
               {[
                 { text: '7 Reasons Why You are My Bestie❤︎' },
-          ].
-                <ComplimentBubble text={item.text} />
+          ]
                }
               <motion.div
                 animate={{ scale: [1, 1.1, 1], rotate: 360 }}
