@@ -805,7 +805,7 @@ export default function App() {
 <br></br>15. I like your paragraphs.. your storytelling.. just the way you write things 
 <br></br>16. I like that you are so patient with me even when I fight for no reason or do nakhre or scold you 🥰
 <br></br>17. I like how you almost never say no to me if I ask you for playing games or doing something together 😋 (maybe cuz you are vella)
-<br></br>18. I like whole of you ❤️
+<br></br>18. I like the whole of you ❤️
                   <br /><br />
                 </p>
                 <p className="text-right font-serif italic text-white/40">— Yours Watermelon</p>
@@ -813,7 +813,7 @@ export default function App() {
 
               <div className="flex flex-col items-center gap-4 text-white/20 pt-10">
                 <ChevronDown className="animate-bounce" />
-                <span className="text-xs uppercase tracking-widest">End of the Universe</span>
+                <span className="text-xs uppercase tracking-widest">Your Universe</span>
               </div>
             </div>
             
