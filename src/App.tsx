@@ -682,9 +682,9 @@ export default function App() {
                 { type: 'heart', text: 'You are sooo cute, cool, respectful❤︎⁠' },
                 { type: 'star', text: 'You are my bestie and my favourite online person ⋆✴︎˚｡⋆' },
                 { type: 'heart', text: 'You make me laugh :-P' },
-                { type: 'star', text: 'I love hanging out with you♡' },
-                { type: 'heart', text: 'Because you exist- you matter because you exist♡' },
-                { type: 'star', text: 'I feel safe and comfortable with you❤︎' },
+                { type: 'star', text: 'You are a good man, a good son, a good friend♡' },
+                { type: 'heart', text: 'Because you exist- you are precious just because you exist♡' },
+                { type: 'star', text: 'You make me feel safe and comfortable ❤︎' },
                 { type: 'heart', text: 'You handle my mood swings, rants, anger, drama, cringe :-P' },
               ].map((item, i) => (
                 <OrbitItem key={i} index={i} total={7} radius={window.innerWidth < 768 ? 130 : 220} delay={i * 0.5}>
@@ -781,26 +781,35 @@ export default function App() {
               <h1 className="text-4xl md:text-5xl font-serif italic text-star-gold border-b border-white/10 pb-6">To Shohaib,</h1>
               
               <div className="space-y-8 text-lg md:text-xl font-sans text-white/80 leading-relaxed">
-                <p>
-                  As you celebrate another journey around the sun, I wanted to create something as vast and beautiful as the soul I see in you. 
-                  The stars above have watched over humanity for centuries, but none of them shine quite as brightly as you do in my world.
-                </p>
+                
                 <div className="flex justify-center py-4">
                   <Heart className="text-pink-500 w-12 h-12 fill-current animate-pulse" />
                 </div>
+              
                 <p>
-                  You are the kind of person who makes the universe feel small because your warmth and presence are so immense. 
-                  May this year bring you as much joy as the infinite expanses of the galaxy.
-                </p>
-                <p className="italic text-white/40">
-                  (Scroll down for your adventure continues...)
-                </p>
-                <p>
-                  [Insert your long scroll message here later]
+                  [For your 18th birthday, here are 18 things I love about you and us ❤️
+1. I love your humour, your spontaneous jokes, when you say something from past inside jokes. 
+2. I love talking to you of course. You are my comfort zone, safe space, trustworthy online person. Thank you for that ❤️. 
+3. I love silence with you.. just you being there in group chats or while playing games. It's not always like we need to say something. Just us being there is enough 💖
+4. I love loveee loveee when you share stuff about yourself or share anything like shows, movies, stories anything. You sound soo much adorable and I love how you tell things. 
+5. I love when you listen to me and when you ask me questions. I love sharing things with you because I know you'd listen even if I don't make sense. 
+6. I love when you tease me and I love teasing you about anything. 
+7. [controversial] Do I like when you ragebait me huh? Maybe I do. Sometimes I don't. Mostly I like when you intentionally say things that you know I don't like. Example: "don't talk to me till 20th May" 🙄
+8. I love fighting with you and I love when you defend yourself even when I'm not serious. You sound so cute. 
+9. [controversial 2] Do I like being clingy to you? Maybe. I do double text you many times and keep sharing random things/spamming you if you are offline. 
+10. I love when you spam things. Anything from your clipboard. Like "wait" or "jhoothi" again and again. It is funny and it somehow even fits all texts. 
+11. I like some emojis that you use -- they become funny when you send them- like "😔, 🤓, 🤙🏿"
+12. I like the reels and posts that you send and that you repost
+13. I love when you take my side or defend me 😋
+14. I like when you stay for me even when you are sleepy or want to go 🥰
+15. I like your paragraphs.. your storytelling.. just the way you write things 
+16. I like that you are so patient with me even when I fight for no reason or do nakhre or scold you 🥰
+17. I like how you almost never say no to me if I ask you for playing games or doing something together 😋 (maybe cuz you are vella)
+18. I like whole of you ❤️
+                  ]
                   <br /><br />
-                  Keep shining, keep dreaming, and never forget that you are made of stardust and magic.
                 </p>
-                <p className="text-right font-serif italic text-white/40">— Yours Always</p>
+                <p className="text-right font-serif italic text-white/40">— Yours Watermelon</p>
               </div>
 
               <div className="flex flex-col items-center gap-4 text-white/20 pt-10">
