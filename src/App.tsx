@@ -681,7 +681,7 @@ export default function App() {
               {[
                 { type: 'heart', text: 'Your presence feels safe and comfortable ❤︎⁠' },
                 { type: 'star', text: 'You are my bestie and my favourite online person♡' },
-                { type: 'heart', text: 'You are a genuine and real person :D' },
+                { type: 'heart', text: 'You are genuine, real and honest with me :D' },
                 { type: 'star', text: 'You are a good man, a good son, a good friend♡' },
                 { type: 'heart', text: 'Because you exist- you are precious just because you exist♡' },
                 { type: 'star', text: 'You are sooo cute, cool, respectful❤︎' },
