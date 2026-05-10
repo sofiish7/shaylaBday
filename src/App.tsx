@@ -685,7 +685,7 @@ export default function App() {
                 { type: 'star', text: 'You are a good man, a good son, a good friend♡' },
                 { type: 'heart', text: 'Because you exist- you are precious just because you exist♡' },
                 { type: 'star', text: 'You are sooo cute, cool, respectful❤︎' },
-                { type: 'heart', text: 'You are trying your best and that's what matters :D' },
+                { type: 'heart', text: 'You are trying your best and that is what matters :D' },
               ].map((item, i) => (
                 <OrbitItem key={i} index={i} total={7} radius={window.innerWidth < 768 ? 130 : 220} delay={i * 0.5}>
                   <ComplimentBubble type={item.type as 'heart' | 'star'} text={item.text} />
