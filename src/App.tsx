@@ -664,7 +664,7 @@ export default function App() {
               animate={{ y: 0, opacity: 1 }}
               className="text-2xl md:text-3xl font-light tracking-widest text-center mb-12 max-w-2xl uppercase text-slate-100"
             >
-              "Here are 7 Reasons Why You are The Most Precious in The Whole Universe❤︎"
+              7 Reasons Why You are The Most Precious in The Whole Universe❤︎
             </motion.h2>
 
             <div className="relative w-[300px] h-[300px] md:w-[500px] md:h-[500px] flex items-center justify-center">
@@ -679,13 +679,13 @@ export default function App() {
 
               {/* Orbiting Items */}
               {[
-                { type: 'heart', text: 'You are sooo cute, cool, respectful❤︎⁠' },
-                { type: 'star', text: 'You are my bestie and my favourite online person ⋆✴︎˚｡⋆' },
-                { type: 'heart', text: 'You make me laugh :-P' },
+                { type: 'heart', text: 'Your presence feels safe and comfortable ❤︎⁠' },
+                { type: 'star', text: 'You are my bestie and my favourite online person♡' },
+                { type: 'heart', text: 'You are a genuine and real person :D' },
                 { type: 'star', text: 'You are a good man, a good son, a good friend♡' },
                 { type: 'heart', text: 'Because you exist- you are precious just because you exist♡' },
-                { type: 'star', text: 'You make me feel safe and comfortable ❤︎' },
-                { type: 'heart', text: 'You handle my mood swings, rants, anger, drama, cringe :-P' },
+                { type: 'star', text: 'You are sooo cute, cool, respectful❤︎' },
+                { type: 'heart', text: 'You are trying your best and that's what matters :D' },
               ].map((item, i) => (
                 <OrbitItem key={i} index={i} total={7} radius={window.innerWidth < 768 ? 130 : 220} delay={i * 0.5}>
                   <ComplimentBubble type={item.type as 'heart' | 'star'} text={item.text} />
@@ -799,12 +799,12 @@ export default function App() {
 <br></br>9. [controversial 2] Do I like being clingy to you? Maybe. I do double text you many times and keep sharing random things/spamming you if you are offline. 
 <br></br>10. I love when you spam things. Anything from your clipboard. Like "wait" or "jhoothi" again and again. It is funny and it somehow even fits all texts. 
 <br></br>11. I like some emojis that you use -- they become funny when you send them- like "😔, 🤓, 🤙🏿"
-<br></br>12. I like the reels and posts that you send and that you repost
+<br></br>12. I like the reels and posts that you send and that you repost. 
 <br></br>13. I love when you take my side or defend me 😋
 <br></br>14. I like when you stay for me even when you are sleepy or want to go 🥰
 <br></br>15. I like your paragraphs.. your storytelling.. just the way you write things 
-<br></br>16. I like that you are so patient with me even when I fight for no reason or do nakhre or scold you 🥰
-<br></br>17. I like how you almost never say no to me if I ask you for playing games or doing something together 😋 (maybe cuz you are vella)
+<br></br>16. I like that you are so patient with me even when I fight for no reason or do nakhre or scold you 🥰 I love that you handle my mood swings, rants, anger, drama, cringe :-P 
+<br></br>17. I like how you almost never say no to me if I ask you for playing games or doing something together 😋 (maybe cuz you are vella too like me)
 <br></br>18. I like the whole of you ❤️
                   <br /><br />
                 </p>
