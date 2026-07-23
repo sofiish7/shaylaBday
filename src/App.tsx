@@ -787,24 +787,25 @@ export default function App() {
                 </div>
               
                 <p>
-                  For your 18th birthday, here are 18 things I love about you and us ❤️
+                  For your 19th birthday, here are 19 things I love about you and us ❤️
 <br></br>1. I love your humour, your spontaneous jokes, when you say something from past inside jokes. 
 <br></br>2. I love talking to you of course. You are my comfort zone, safe space, trustworthy online person. Thank you for that ❤️. 
 <br></br>3. I love silence with you.. just you being there in group chats or while playing games. It's not always like we need to say something. Just us being there is enough 💖
-<br></br>4. I love loveee loveee when you share stuff about yourself or share anything like shows, movies, stories anything. You sound soo much adorable and I love how you tell things. 
+<br></br>4. I love loveee loveee when you share stuff about yourself or share anything like shows, movies, stories anything. You sound soo much adorable and I love the way you tell things. 
 <br></br>5. I love when you listen to me and when you ask me questions. I love sharing things with you because I know you'd listen even if I don't make sense. 
 <br></br>6. I love when you tease me and I love teasing you about anything. 
 <br></br>7. [controversial] Do I like when you ragebait me huh? Maybe I do. Sometimes I don't. Mostly I like when you intentionally say things that you know I don't like. Example: "don't talk to me till 20th May" 🙄
 <br></br>8. I love fighting with you and I love when you defend yourself even when I'm not serious. You sound so cute. 
 <br></br>9. [controversial 2] Do I like being clingy to you? Maybe. I do double text you many times and keep sharing random things/spamming you if you are offline. 
 <br></br>10. I love when you spam things. Anything from your clipboard. Like "wait" or "jhoothi" again and again. It is funny and it somehow even fits all texts. 
-<br></br>11. I like some emojis that you use -- they become funny when you send them- like "😔, 🤓, 🤙🏿"
+<br></br>11. I like some emojis only when you use them -- they become funny when you send them- like "😔, 🤓, 🤙🏿"
 <br></br>12. I like the reels and posts that you send and that you repost. 
 <br></br>13. I love when you take my side or defend me 😋
 <br></br>14. I like when you stay for me even when you are sleepy or want to go 🥰
 <br></br>15. I like your paragraphs.. your storytelling.. just the way you write things 
 <br></br>16. I like that you are so patient with me even when I fight for no reason or do nakhre or scold you 🥰 I love that you handle my mood swings, rants, anger, drama, cringe :-P 
 <br></br>17. I like how you almost never say no to me if I ask you for playing games or doing something together 😋 (maybe cuz you are vella too like me)
+<br></br>15. I like that you are mature and understanding.. more than me. 
 <br></br>18. I like the whole of you ❤️
                   <br /><br />
                 </p>
