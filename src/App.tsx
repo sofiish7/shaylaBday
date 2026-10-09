@@ -23,7 +23,7 @@ type Page = 'intro' | 'earth-exit' | 'countdown' | 'celebrate' | 'game' | 'galax
 
 // --- UTILS ---
 const IST_OFFSET = 5.5 * 60 * 60 * 1000; // 5 hours 30 mins in ms
-const TARGET_TIME = new Date(2026, 4, 15, 0, 0, 0).getTime(); // May 15, 2026 IST Target
+const TARGET_TIME = new Date(2027, 4, 15, 0, 0, 0).getTime(); // May 15, 2027 IST Target
 
 const getISTTime = () => {
   const d = new Date();
