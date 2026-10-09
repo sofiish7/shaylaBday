@@ -684,7 +684,7 @@ export default function App() {
                 { type: 'heart', text: 'You are genuine, real and honest with me :D' },
                 { type: 'star', text: 'You are a good man, a good son, a good friend♡' },
                 { type: 'heart', text: 'Because you exist- you are precious just because you exist♡' },
-                { type: 'star', text: 'You are sooo cute, cool, respectful❤︎' },
+                { type: 'star', text: 'You are sooo cute, cool, amazing, ray-of-shonshine, respectful, my nega gay son❤︎' },
                 { type: 'heart', text: 'You are trying your best and that is what matters :D' },
               ].map((item, i) => (
                 <OrbitItem key={i} index={i} total={7} radius={window.innerWidth < 768 ? 130 : 220} delay={i * 0.5}>
@@ -805,8 +805,8 @@ export default function App() {
 <br></br>15. I like your paragraphs.. your storytelling.. just the way you write things 
 <br></br>16. I like that you are so patient with me even when I fight for no reason or do nakhre or scold you 🥰 I love that you handle my mood swings, rants, anger, drama, cringe :-P 
 <br></br>17. I like how you almost never say no to me if I ask you for playing games or doing something together 😋 (maybe cuz you are vella too like me)
-<br></br>15. I like that you are mature and understanding.. more than me. 
-<br></br>18. I like the whole of you ❤️
+<br></br>18. I like that you are mature and understanding.. more than me. I like how you are always respectful towards me even when I'm being mean to you (sorry).
+<br></br>19. I like the whole of you ❤️
                   <br /><br />
                 </p>
                 <p className="text-right font-serif italic text-white/40">— Yours Watermelon</p>
