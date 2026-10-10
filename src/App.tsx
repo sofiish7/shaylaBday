@@ -807,6 +807,10 @@ export default function App() {
 <br></br>17. I like how you almost never say no to me if I ask you for playing games or doing something together 😋 (maybe cuz you are vella too like me)
 <br></br>18. I like that you are mature and understanding.. more than me. I like how you are always respectful towards me even when I'm being mean to you (sorry).
 <br></br>19. I like the whole of you ❤️
+                  <br></br>
+<br></br> Also other birthday stuff - 
+  <br></br><a href="https://hbdshoooo.vercel.app/" target="_blank">Birthday Website</a>
+<br></br><a href="https://openwhenletters.app/c/0c519143-30fa-4310-8d9d-b5508d8cc857/v/51197a6846f1ae0329858f829fa6f4bfbd8d3de07666fdd507fe81c64b73585c" target="_blank">Letters to You</a>
                   <br /><br />
                 </p>
                 <p className="text-right font-serif italic text-white/40">— Yours Watermelon</p>
